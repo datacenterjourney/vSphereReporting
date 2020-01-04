@@ -1,14 +1,14 @@
 
-function Get-DcjVmAverage {
+function Get-VmAverage {
     <#
         .SYNOPSIS
             Get VM average of CPU, Memory, Disk & Network
         .DESCRIPTION
             Exports a CSV list of VM(s) average of the CPU, Memory, Disk & Network of 1 hour samples for specified amount of days
         .EXAMPLE
-            Get-DcjVmAverage -numDays 14 -csvPath c:/reports/VmAverage.csv
+            Get-VmAverage -numDays 14 -csvPath c:/reports/VmAverage.csv
         .EXAMPLE
-            Get-DcjVmAverage -numDays 30 -csvPath ~/Desktop/reports/AverageVms.csv
+            Get-VmAverage -numDays 30 -csvPath ~/Desktop/reports/AverageVms.csv
         .NOTES
             Created: 01/03/2020 by Manuel Martinez, Version 1.0
             Github: https://www.github.com/datacenterjourney
